@@ -23,7 +23,7 @@ pipx install colorblind_pdf
 To use `colorblind_pdf`, provide the path to the PDF you want to process, the output directory, and specify the type of color deficiency simulation. For example:
 
 ```bash
-colorblind_pdf my_document.pdf -o output_directory -d d p
+colorblind_pdf my_document.pdf -o output_directory -d deuteranopia -d protanopia
 ```
 
 This command will process `my_document.pdf` for deuteranopia and protanopia, and saving the resulting PDFs in `output_directory`.

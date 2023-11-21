@@ -28,7 +28,7 @@ Home = "https://github.com/dvolgyes/colorblind_pdf/"
 
 
 [tool.setuptools_scm]
-write_to = "src/colorblind_pdf/_version.py"
+write_to = "colorblind_pdf/_version.py"
 
 [project.entry-points.console_scripts]
 colorblind_pdf = "colorblind_pdf.colorblind_pdf:main"

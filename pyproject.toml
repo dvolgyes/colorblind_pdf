@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "colorblind_pdf"
-version = "0.1.0"
+version = "0.2.0"
 description = "A package to process PDFs for testing colorblind accessibility."
 authors = [
     { name = "David Völgyes", email = "david.volgyes@ieee.org" },
